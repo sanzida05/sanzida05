@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int x,y;
+    printf("Please Enter Your Value x and y :\n");
+    scanf("%d\n",&x);
+    scanf("%d\n",&y);
+
+    if(x==y){
+        printf("x and y are equal.");
+    }
+      else{
+        printf("x and y are not equal.");
+      }
+    return 0;
+}
